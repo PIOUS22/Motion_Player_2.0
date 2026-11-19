@@ -1,0 +1,25 @@
+name: motion_player
+description: Motion Player - modern Android video & audio player
+publish_to: none
+version: 1.0.0+1
+environment: {sdk: ">=3.3.0 <4.0.0"}
+dependencies:
+  flutter: {sdk: flutter}
+  provider: ^6.1.2
+  video_player: ^2.9.1
+  just_audio: ^0.9.40
+  just_audio_background: ^0.0.1-beta.13
+  photo_manager: ^3.5.0
+  permission_handler: ^11.3.1
+  screen_brightness: ^1.0.1
+  volume_controller: ^2.0.8
+  floating: ^2.0.0
+  local_auth: ^2.3.0
+  path_provider: ^2.1.4
+  file_picker: ^8.1.2
+  dio: ^5.7.0
+  open_filex: ^4.5.0
+  package_info_plus: ^8.0.2
+  shared_preferences: ^2.3.2
+flutter:
+  uses-material-design: true
